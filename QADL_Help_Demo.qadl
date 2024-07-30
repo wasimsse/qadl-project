@@ -1,0 +1,85 @@
+@startqadl
+Circuit BellState {
+    qubit q0
+    qubit q1
+    gate Hadamard q0
+    gate CNOT q0 q1
+    measure q0 -> c0
+    measure q1 -> c1
+}
+
+Circuit QuantumTeleportation {
+    qubit q0
+    qubit q1
+    qubit q2
+    gate Hadamard q1
+    gate CNOT q1 q2
+    gate CNOT q0 q1
+    gate Hadamard q0
+    measure q0 -> c0
+    measure q1 -> c1
+    // Using classical control flow
+    // Manually handled in the execute_circuit function
+}
+
+Circuit DeutschJosza {
+    qubit q0
+    qubit q1
+    qubit q2
+    gate Hadamard q0
+    gate Hadamard q1
+    gate X q2
+    gate Hadamard q2
+    gate Oracle q0 q1 q2
+    gate Hadamard q0
+    gate Hadamard q1
+    measure q0 -> c0
+    measure q1 -> c1
+}
+
+Circuit QuantumFourierTransform {
+    qubit q0
+    qubit q1
+    qubit q2
+    gate Hadamard q0
+    gate CR q0 q1
+    gate CR2 q0 q2
+    gate Hadamard q1
+    gate CR q1 q2
+    gate Hadamard q2
+    gate Swap q0 q2
+    measure q0 -> c0
+    measure q1 -> c1
+    measure q2 -> c2
+}
+
+Circuit GroversAlgorithm {
+    qubit q0
+    qubit q1
+    qubit q2
+    qubit q3
+    gate Hadamard q0
+    gate Hadamard q1
+    gate Hadamard q2
+    gate Hadamard q3
+    gate Oracle q0 q1 q2 q3
+    gate Diffuser q0 q1 q2 q3
+    measure q0 -> c0
+    measure q1 -> c1
+    measure q2 -> c2
+    measure q3 -> c3
+}
+
+Circuit QuantumPhaseEstimation {
+    qubit q0
+    qubit q1
+    qubit q2
+    gate Hadamard q0
+    gate Hadamard q1
+    gate CNOT q0 q2
+    gate CR q1 q2
+    gate InverseQFT q0 q1
+    measure q0 -> c0
+    measure q1 -> c1
+}
+@endqadl

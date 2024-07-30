@@ -1,0 +1,71 @@
+# Pending Tasks
+
+## Phase 1: Enhancements to Core Features
+
+### 1. Extend QADL Syntax and Semantics
+- [ ] Add support for more quantum gates and constructs.
+- [ ] Define detailed syntax for hardware configurations and error correction.
+
+### 2. Improve Parser and Validator
+- [ ] Enhance the parser to handle the extended syntax.
+- [ ] Implement more robust validation for logical errors.
+
+## Phase 2: Advanced Quantum Algorithms and Circuit Descriptions
+
+### 3. Add Support for High-Level Algorithms
+- [ ] Extend QADL to describe complex quantum algorithms.
+- [ ] Provide additional templates and examples.
+
+### 4. Optimize Circuit Descriptions
+- [ ] Implement optimizations in the executor to handle more complex circuits efficiently.
+
+## Phase 3: Classical-Quantum Hybrid Architectures
+
+### 5. Integrate Classical Control Flow
+- [ ] Add constructs for classical control and hybrid algorithms in QADL.
+- [ ] Enhance the executor to handle hybrid workflows.
+
+### 6. Incorporate Error Correction and Noise Mitigation
+- [ ] Extend QADL to include error correction codes and noise mitigation techniques.
+
+## Phase 4: Detailed Quantum Hardware Representation
+
+### 7. Model Different Quantum Hardware
+- [ ] Extend QADL to represent different quantum hardware platforms.
+
+### 8. Hardware Configuration and Resource Management
+- [ ] Add constructs for detailed hardware configurations and resource allocations.
+
+## Phase 5: Visualization and Simulation Enhancements
+
+### 9. Advanced Visualization Tools
+- [ ] Improve visualization capabilities to handle larger and more complex circuits.
+- [ ] Make the visualization pane flexible and resizable.
+
+### 10. Integrate with More Simulators
+- [ ] Integrate with additional quantum simulators for better testing and debugging.
+
+## Phase 6: Deployment and Cloud Integration
+
+### 11. Quantum Cloud Services Integration
+- [ ] Enable QADL scripts to be executed on various cloud quantum services.
+
+### 12. Develop CI/CD Pipelines
+- [ ] Create deployment pipelines for automating the translation of QADL scripts into executable formats.
+
+## Phase 7: User Interface and User Experience
+
+### 13. Enhance the GUI
+- [ ] Add features like syntax highlighting, auto-completion, and advanced error reporting.
+- [ ] Make the editor window fixed size and the diagram viewer flexible.
+
+### 14. Comprehensive Documentation
+- [ ] Develop detailed documentation and tutorials for users.
+
+## Phase 8: Community and Ecosystem
+
+### 15. Build a QADL Community
+- [ ] Establish forums and GitHub repositories for community collaboration.
+
+### 16. Ecosystem Integration
+- [ ] Develop plugins/extensions for integration with other quantum computing tools.

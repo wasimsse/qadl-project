@@ -1,0 +1,32 @@
+# Completed Features
+
+## 1. QADL Syntax and Semantics
+- Partially defined syntax for describing quantum circuits including qubits, gates, and measurements.
+
+## 2. QADL Parser
+- Implemented a parser that reads QADL scripts and identifies circuit components.
+- Basic syntax validation included.
+
+## 3. QADL Executor
+- Executes parsed QADL scripts and simulates quantum circuits.
+- Generates visualizations of the circuits.
+- Integrated with Qiskit for circuit execution.
+- Handles basic quantum gates and measurements.
+
+## 4. QADL GUI
+- Provides a graphical user interface for writing and visualizing QADL scripts.
+- Features include script editing, running, clearing, and saving.
+
+## 5. Visualization Tools
+- Generates circuit diagrams using Qiskit and PIL.
+- Displays diagrams in the GUI.
+
+## 6. Example QADL Scripts
+- Provided sample scripts for common quantum circuits and algorithms.
+- Files: `example.qadl`, `QADL_Help_Demo.qadl`
+
+## 7. Error Handling in GUI
+- Displays syntax and runtime errors in the GUI.
+
+## 8. Basic Export Functionality
+- Allows exporting visualized circuits in PNG, JPG, and PDF formats.
